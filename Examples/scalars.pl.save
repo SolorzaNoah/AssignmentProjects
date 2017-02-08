@@ -1,0 +1,45 @@
+#!usr/bin/perl
+
+use warnings;
+use strict;
+
+#Variable Declaration
+my $foo = 1;
+my $bar = 2;
+
+#
+" . ($foo + $bar) . "\n\n";
+my $baz = $foo + $bar;
+print "$baz\n";
+
+#Arithemetic Operations
+print $foo - $bar;
+print "\n";
+print $foo * $bar;
+print "\n";
+print $foo / $bar;
+print "\n";
+print $foo % $bar;
+print "\n";
+
+#String Multiplication
+print $foo x 5;
+print "\n";
+
+#Incrementation, Decrementation, and Bitwise Operations
+$foo++;
+print "$foo \n";
+$foo--;
+print "$foo \n";
+$foo += 3;
+$foo = $foo + 3;
+print "$foo \n";
+
+#Order of Operations Example
+$foo = ($foo+3)/2+$bar;
+print "$foo \n";
+
+#Taking in user input
+print "Give me a word: ";
+print "You gave me " . chomp(my $qux = <STDIN>) . "\n";
+
