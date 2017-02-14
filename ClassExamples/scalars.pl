@@ -38,7 +38,7 @@ print "\n";
 print $foo x 5;
 print "\n";
 
-#Incrementation, Decrementation, and Bitwise Operations
+#Incrementation, Decrementation, and Binary Operations
 $foo++;
 print "$foo \n";
 $foo--;
@@ -54,4 +54,5 @@ print "$foo \n";
 #Taking in user input
 print "Give me a word: ";
 print "You gave me " . chomp(my $qux = <STDIN>) . "\n";
+O
 
