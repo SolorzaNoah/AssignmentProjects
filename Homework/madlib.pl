@@ -31,7 +31,6 @@ chomp $celebrity;
 print "Name a song:";
 
 $songname=<STDIN>;
-chomp $songname;
 
 print "Almost done, name a body part:";
 
@@ -39,5 +38,5 @@ $bodypart=<STDIN>;
 chomp $bodypart;
 
 print "Okay here goes";
-print "\n The other day,$name1 took me to the park to $verb4 and $verb3 , but I said no because I am vegan. I played my favorite song $songname to set the scene but my $bodypart was itchy so I decided to $verb2 with $celebrity who happened to be passing by. $name1 began to $verb1 so we went home and $randomword." ;
+print "\n The other day,$name1 took me to the park to $verb4 and $verb3 , but I said no because I am vegan. I played my favorite song $songname to set the scene but my $bodypart was itchy so I decided to $verb2 with $celebrity who happened to be passing by. $name1 began to $verb1 so we ate a $randomword.\n" ;
 
