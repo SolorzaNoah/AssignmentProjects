@@ -9,7 +9,7 @@ $number2 = <STDIN>;
 print"$number1+$number2=";
 print$number1+$number2."\n";
 print"$number1-$number2=";
-print$number1-$number2. "\n";
+print$number1-$number2."\n";
 print"$number1*$number2=";
 print$number1*$number2."\n";
 print"$number1/$number2=";
