@@ -2,7 +2,7 @@
 
 use warnings;
 
-print "Give me a number and I'll check if it is even:\n";
+print "Give me a number and I'll check if it is even:";
 $num=<STDIN>;
 chomp $num;
 
@@ -13,5 +13,5 @@ if (0 == $num % 2) {
 	print "$num is even \n";
 
 }else {
-	print "$num is odd \n Just like you"; }
+	print "$num is odd \nJust like you\n"; }
 
