@@ -1,0 +1,4 @@
+3 things needed for a loop
+Initialized
+CHeck for variable
+Changed
