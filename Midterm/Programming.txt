@@ -1,0 +1,44 @@
+Noah Solorzano
+
+a.Describe what an array is.
+
+	An array is an indexed variable that stores a list of strings or scalars. Since it is perl, 
+there is not a need to specify which it is, merely that it is an array and perl will do its best
+to please the human. It can be modified as to add/remove items from the beginning (which is the 
+first item designated by 0) or from the end with the commands shift/unshift and pop/push respectively.
+When creating an array, it must be written preceded by an "@" symbol. Individual values within the 
+array can be used by simpy recalling the array with "$" and the number of the item inside (keeping
+in mind that the first item is 0.)
+
+b.Describe the difference between strongly typed and loosely typed languages.
+
+	When assigning value to variables with strongly typed languages, one must specify what type
+of data is going to be stored within that variable that, in other words, these need to be told
+when a variable will have inside. Loosely typed languages, however, need no specification on 
+what will be assigned to a variable, for example when making an array in Perl, the only thing 
+needed is to denote the array, and within you can use whichever type of data you choose at the 
+same time.
+
+c.Describe the difference between stacks and queues.
+
+	Although stacks and queues are both types of arrays, they follow a different "system" of organization,
+meaning the input/output order is different. Stacks are exactly what they sound like, they follow a
+LIFO (last in first out) system where the first input remains "at the bottom" of the stack so to access
+it, all of the other items that were input after should be removed; which can alternatively be called
+FILO (first in last out). On the other hand, queues are backwards, FIFO (first in first out) or LILO
+(last in last out). Queues can be seen as lines at the supermarket, if you got there first, you will be
+attended first, but if you got there last, you will be the last to be attended. 
+
+d.Describe the 3 steps necessary to control a loop.
+
+	Set.- First the condition for the loop must be set, and this is what makes the loop either restart
+		or end/move on with the rest of the program. It can be in a while loop as "as long as this is true
+		loop" or in a for loop as "do this for this many times or until it reaches this number."
+	Check.- This is the time when the program determines if the value matches the one set in the condition,
+		so if in a while loop the value in set matches the one currently viewed, it will loop, or if it is 
+		a for loop, if the iterator remains in the specified range, the loop continues.
+	Change.- This is the final step as it determines the ending of the loop. It is the "function" that can be 
+		user input or simply meeting a requirement/matching a value, that causes the iterator to defy the 
+		condition set in step 1, meaning that the program will no longer follow through with the code.
+		
+END.
