@@ -1,0 +1,11 @@
+scalar is a single variable
+list is plural
+
+strongly type languages, you have to specify what type of data that's gonna be stored
+loosely type , you can just say "dis variable gone hold sum things"
+
+interpreted languages (perl,python,ruby) converts it into binary format and runs it as it goes "on the fly"
+compiled language, takes it all in (c, c++,jaa) and then runs the compiled version
+
+chomp STDIN
+
