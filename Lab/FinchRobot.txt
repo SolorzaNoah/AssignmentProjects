@@ -1,7 +1,0 @@
-Plug in the finch robot with the USB connection.
-Make sure it is detected by the PC.
-Go to the finchrobot website.
-Since python is being used, download the package for python.
-With the finch robot plugged in, run the example programs and the finch robot should respond.
-(For some reason running them through command prompt didnt work, so I had to individually select them directly
-from file explorer by double-clicking them)
