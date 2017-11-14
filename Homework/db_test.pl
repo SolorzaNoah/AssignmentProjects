@@ -29,12 +29,4 @@ while (@row = $sth->fetchrow_array()) {  # retrieve one row
     print join(", ", @row), "\n";
 }
 $sth->finish();
-my $sql2 = ('SELECT city FROM data');
-my $sth = $dbh->prepare($sql2);
-$sth->execute();
-my @row;
-while (@row = $sth->fetchrow_array()) {  # retrieve one row
-    print join(", ", @row), "\n";
-}
-$sth->finish();
 $dbh->disconnect;
