@@ -15,9 +15,9 @@ close DATA;
 foreach $individual (@data){
 		$individual=~ s/\r//;
 		@data2 = split(',',$individual);
-		open DATA, '>', 'newdatafile.csv' || die;
+		open DATA, '>>', 'newdatafile.csv' || die;
 		print DATA "$data2[3].$data2[5].$data2[6].$data2[7].$data2[8].$data2[9].\n";
 		close DATA;
-		print @data2;
+		print "$data2[3].$data2[5].$data2[6].$data2[7].$data2[8].$data2[9].\n";
 }
 		
