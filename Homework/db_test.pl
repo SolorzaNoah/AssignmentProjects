@@ -1,5 +1,3 @@
-#!/usr/bin/perl
-
 #Jonathan Ninan,Rolando Negron,Noah Solorzano
 use DBI;
 
@@ -28,5 +26,6 @@ my @row;
 while (@row = $sth->fetchrow_array()) {  # retrieve one row
     print join(", ", @row), "\n";
 }
+
 $sth->finish();
 $dbh->disconnect;
