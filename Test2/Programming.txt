@@ -1,0 +1,18 @@
+a)	 A filehandle is the name of the I/O connection between the perl script and external data. Data can be
+         manipulated within the filehandle and it makes the scripting more efficient, as you can simply close 
+	 the filehandle as soon as it is done being used. Perl can use filehandles to connect to almost anything.
+
+b)	 Subroutines are lines of code that, instead of being re-written every time they are required, programmers
+	 tie them into a single unit, that can be recalled with a simple command whenever needed. This makes the code
+	 both cleaner and faster. Subroutines can be thought of variables that represent actual lines of code.
+
+c)	 A perl module is a package that contains essential bits of code that programmers use often so they are gathered
+	 up to be recalled later on instead of having to retype them every single time a programmer would like to use them.
+	 These tools inside of the module are called subroutines, and can be defined by a simple name like “Number_Adder”
+	 and perform actions when recalled in a new perl script that goes to the module, pulls the subroutine and uses it.
+	 It is like a cheat sheet you can recall anytime you want.
+
+d)	 Regular expressions (regex) is a mini-language within perl that uses strings to match patterns. The syntax uses  
+	 single letters combined with symbols to perform matching tasks which include substitution and matching, being some 
+	 of the most common. They are brief, but very powerful as they can really scan through an entire file to perform a match.
+	 
