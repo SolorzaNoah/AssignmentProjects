@@ -5,10 +5,10 @@ require Exporter;
 @EXPORT = qw(square cube);
 #defining first subroutine
 sub square {
-	print $num * $num;
+	print $_ * $_."\n";
 }
 sub cube {
-	print $num * $num * $num;
+	print $_ * $_ * $_."\n";
 
 }
 

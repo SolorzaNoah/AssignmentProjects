@@ -6,9 +6,9 @@ use lib '.';
 use calc;
 
 print "What number 'do' you want to play with?\n";
-chomp($num = <STDIN>);
+chomp($_ = <STDIN>);
 #taking in user input to send to the subroutines
 
-do square[$num];
-do cube[$num];
+do square[$_];
+do cube[$_];
 
